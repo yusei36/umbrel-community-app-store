@@ -49,6 +49,9 @@ services:
       MEMPOOL_CACHE_DIR: "/backend/cache"
       MEMPOOL_CLEAR_PROTECTION_MINUTES: "20"
       MEMPOOL_INDEXING_BLOCKS_AMOUNT: "52560"
+      MEMPOOL_INITIAL_BLOCKS_AMOUNT: "8"
+      MEMPOOL_MEMPOOL_BLOCKS_AMOUNT: "8"
+      MEMPOOL_POLL_RATE_MS: "60000"
       MEMPOOL_STDOUT_LOG_MIN_PRIORITY: "info"
       LIGHTNING_ENABLED: "true"
       LIGHTNING_BACKEND: "lnd"
@@ -62,10 +65,6 @@ services:
     networks:
        default:
          ipv4_address: $APP_MEMPOOL_API_IP
-    deploy:
-      resources:
-        limits:
-          cpus: "0.25"
   mariadb:
     image: mariadb:10.5.12@sha256:dfcba5641bdbfd7cbf5b07eeed707e6a3672f46823695a0d3aba2e49bbd9b1dd
     user: "1000:1000"
