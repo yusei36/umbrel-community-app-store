@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: yusei36-mempool
 category: bitcoin
-name: yusei36-mempool
+name: μ-mempool
 icon: https://getumbrel.github.io/umbrel-apps-gallery/mempool/icon.svg
 version: "3.0.1"
 tagline: Explore the full Bitcoin ecosystem
