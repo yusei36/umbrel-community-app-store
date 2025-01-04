@@ -1,9 +1,9 @@
 manifestVersion: 1
-id: yusei36-mempool
+id: micro-mempool
 category: bitcoin
 name: μ-mempool
 icon: https://getumbrel.github.io/umbrel-apps-gallery/mempool/icon.svg
-version: "3.0.1"
+version: "3.0.1.1"
 tagline: Explore the full Bitcoin ecosystem
 description: >-
   Be your own explorer.
@@ -37,7 +37,7 @@ defaultPassword: ""
 widgets:
   - id: "stats"
     type: "four-stats"
-    refresh: "5s"
+    refresh: "60s"
     endpoint: "widget-server:3000/widgets/fees"
     link: ""
     example:
