@@ -3,7 +3,7 @@ id: yusei36-btc-rpc-explorer
 category: bitcoin
 name: BTC RPC Explorer
 icon: https://getumbrel.github.io/umbrel-apps-gallery/btc-rpc-explorer/icon.svg
-version: "3.4.0.2-rpc"
+version: "3.4.0.3-rpc"
 tagline: Simple, database-free blockchain explorer
 description: >-
   BTC RPC Explorer is a full-featured, self-hosted explorer for the

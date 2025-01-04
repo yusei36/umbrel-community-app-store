@@ -31,5 +31,5 @@ services:
       BTCEXP_PRIVACY_MODE: "true"
       BTCEXP_NO_RATES: "true"
       # Disable RPC
-      BTCEXP_RPC_ALLOWALL: "false"
+      BTCEXP_RPC_ALLOWALL: "true"
       BTCEXP_BASIC_AUTH_PASSWORD: ""
