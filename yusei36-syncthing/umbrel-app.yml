@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: yusei36-syncthing
+category: files
+name: Syncthing 8385
+icon: https://getumbrel.github.io/umbrel-apps-gallery/syncthing/icon.svg
+version: "1.28.1"
+tagline: Peer-to-peer file synchronization between your devices
+description: >-
+  Syncthing is a peer-to-peer continuous file synchronization
+  program. It synchronizes files between two or more computers in real time,
+  safely protected from prying eyes. Your data is your data alone and you
+  deserve to choose where it is stored, whether it is shared with some third
+  party, and how it's transmitted over the internet.
+
+
+  Install the Syncthing app on your Umbrel and pair it with the Syncthing app on your phone or computer for a self hosted peer-to-peer backup solution.
+developer: The Syncthing Foundation
+website: https://syncthing.net
+dependencies: []
+repo: https://github.com/syncthing/syncthing
+support: https://forum.syncthing.net
+port: 8385
+gallery:
+  - https://getumbrel.github.io/umbrel-apps-gallery/syncthing/1.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/syncthing/2.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/syncthing/3.jpg
+path: ""
+defaultPassword: ""
+releaseNotes: >-
+  This release includes bug fixes and improvements:
+    - Fixed issues with folder synchronization status display
+    - Improved dark theme support in the web interface
+    - Enhanced handling of symbolic links on Android
+    - Fixed various UI display issues on mobile devices
+    - Improved handling of directory junctions
+
+
+  Full release notes can be found at https://github.com/syncthing/syncthing/releases
+submitter: Sam Cymbaluk
+submission: https://github.com/getumbrel/umbrel/pull/1092

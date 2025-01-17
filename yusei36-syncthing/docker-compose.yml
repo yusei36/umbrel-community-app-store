@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  server:
+    image: syncthing/syncthing:1.28.1@sha256:289b4ca86d77e4938d3e0af7d11f5c0a0fb786e469d5f697c25ab0f9e1f29f34
+    restart: on-failure
+    stop_grace_period: 1m
+    hostname: umbrel
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ${APP_DATA_DIR}/data:/var/syncthing
+    ports:
+      - 8335:8335
+      - 22000:22000/tcp
+      - 22000:22000/udp
