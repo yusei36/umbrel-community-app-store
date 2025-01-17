@@ -12,6 +12,6 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/var/syncthing
     ports:
-      - 8334:8334
+      - 8384:8384
       - 22000:22000/tcp
       - 22000:22000/udp
