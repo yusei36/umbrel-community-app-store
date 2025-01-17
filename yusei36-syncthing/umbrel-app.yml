@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: yusei36-syncthing
 category: files
-name: Syncthing 8385
+name: Syncthing
 icon: https://getumbrel.github.io/umbrel-apps-gallery/syncthing/icon.svg
 version: "1.29.2"
 tagline: Peer-to-peer file synchronization between your devices
