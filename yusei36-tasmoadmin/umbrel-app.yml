@@ -12,7 +12,7 @@ website: https://github.com/TasmoAdmin/TasmoAdmin
 dependencies: []
 repo: https://github.com/TasmoAdmin/TasmoAdmin
 support: https://github.com/TasmoAdmin/TasmoAdmin/discussions
-port: 8000
+port: 8036
 gallery:
   - 1.jpg
   - 2.jpg

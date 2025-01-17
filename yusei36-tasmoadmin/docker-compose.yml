@@ -2,12 +2,12 @@ services:
   app_proxy:
     environment:
       APP_HOST: yusei36-tasmoadmin_server_1
-      APP_PORT: 8000
+      APP_PORT: 8036
 
   server:
     image: ghcr.io/tasmoadmin/tasmoadmin:v4.2.1@sha256:f3e64d6e180ff39a2e1c6ca4e16976fd71d0558c972e8e549d01245ce6e2aa66
     restart: on-failure
     ports:
-      - "8000:80"
+      - "8036:80"
     volumes:
       - ${APP_DATA_DIR}/data:/data
