@@ -1,0 +1,23 @@
+manifestVersion: 1.1
+id: yusei36-tasmoadmin
+category: media
+name: TasmoAdmin
+version: "4.2.1"
+icon: https://raw.githubusercontent.com/TasmoAdmin/TasmoAdmin/refs/heads/master/assets/logo.svg
+tagline: Admin UI for Tasmota
+description: >-
+  TasmoAdmin description
+developer: TasmoAdmin
+website: https://github.com/TasmoAdmin/TasmoAdmin
+dependencies: []
+repo: https://github.com/TasmoAdmin/TasmoAdmin
+support: https://github.com/TasmoAdmin/TasmoAdmin/discussions
+port: 8000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+releaseNotes: >-
+  TasmoAdmin releaseNotes
+submitter: yusei36
