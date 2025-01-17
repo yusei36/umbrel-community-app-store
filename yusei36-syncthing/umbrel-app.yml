@@ -3,7 +3,7 @@ id: yusei36-syncthing
 category: files
 name: Syncthing 8385
 icon: https://getumbrel.github.io/umbrel-apps-gallery/syncthing/icon.svg
-version: "1.28.1"
+version: "1.29.2"
 tagline: Peer-to-peer file synchronization between your devices
 description: >-
   Syncthing is a peer-to-peer continuous file synchronization
@@ -28,11 +28,8 @@ path: ""
 defaultPassword: ""
 releaseNotes: >-
   This release includes bug fixes and improvements:
-    - Fixed issues with folder synchronization status display
-    - Improved dark theme support in the web interface
-    - Enhanced handling of symbolic links on Android
-    - Fixed various UI display issues on mobile devices
-    - Improved handling of directory junctions
+    - Fixed an issue with text encoding in the application
+    - Improved system stability and reliability
 
 
   Full release notes can be found at https://github.com/syncthing/syncthing/releases
