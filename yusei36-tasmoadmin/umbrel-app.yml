@@ -1,6 +1,6 @@
 manifestVersion: 1.1
 id: yusei36-tasmoadmin
-category: media
+category: automation
 name: TasmoAdmin
 version: "4.2.1"
 icon: https://raw.githubusercontent.com/TasmoAdmin/TasmoAdmin/refs/heads/master/assets/logo.svg
@@ -13,10 +13,6 @@ dependencies: []
 repo: https://github.com/TasmoAdmin/TasmoAdmin
 support: https://github.com/TasmoAdmin/TasmoAdmin/discussions
 port: 8036
-gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
 path: ""
 releaseNotes: >-
   TasmoAdmin releaseNotes
