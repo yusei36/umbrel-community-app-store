@@ -6,7 +6,3 @@ services:
       - ${APP_DATA_DIR}/data:/data
     ports:
       - 8036:80
-    user: "1000:1000"
-    environment:
-      - PUID=1000
-      - PGID=1000
