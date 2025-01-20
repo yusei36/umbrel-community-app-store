@@ -5,12 +5,13 @@ services:
     image: syncthing/syncthing:1.29.2@sha256:3f5c9776aac65e92a1c7d49f3443c35e4da92ae0d8e40308af6b7fae6e9b301a
     restart: on-failure
     stop_grace_period: 1m
-    hostname: umbrel
+    hostname: umbrel-syncthing
     environment:
       - PUID=1000
       - PGID=1000
     volumes:
       - ${APP_DATA_DIR}/data:/var/syncthing
+    network_mode: host
     ports:
       - 8384:8384
       - 22000:22000/tcp
