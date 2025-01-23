@@ -2,8 +2,8 @@ manifestVersion: 1
 id: yusei36-mempool
 category: bitcoin
 name: μ-mempool
+version: "3.0.1-hotfix"
 icon: https://getumbrel.github.io/umbrel-apps-gallery/mempool/icon.svg
-version: "3.0.1.1"
 tagline: Explore the full Bitcoin ecosystem
 description: >-
   Be your own explorer.
@@ -14,7 +14,7 @@ description: >-
 
   This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com
 releaseNotes: >-
-  This update brings faster block indexing and limits memory usage for better performance.
+  This update fixes an issue where users on umbrelOS 1.3 were unable to use optional LND functionality in the mempool app.
 
 
   Full release notes for the previous major update to version 3.0.0 are found at https://github.com/mempool/mempool/releases
