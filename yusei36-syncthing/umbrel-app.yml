@@ -3,7 +3,7 @@ id: yusei36-syncthing
 category: files
 name: Syncthing
 icon: https://getumbrel.github.io/umbrel-apps-gallery/syncthing/icon.svg
-version: "1.29.4"
+version: "1.29.4-fix"
 tagline: Peer-to-peer file synchronization between your devices
 description: >-
   Syncthing is a peer-to-peer continuous file synchronization
