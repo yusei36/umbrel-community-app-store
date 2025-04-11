@@ -1,6 +1,6 @@
 services:
   server:
-    image: ghcr.io/tasmoadmin/tasmoadmin:v4.2.1@sha256:f3e64d6e180ff39a2e1c6ca4e16976fd71d0558c972e8e549d01245ce6e2aa66
+    image: ghcr.io/tasmoadmin/tasmoadmin:v4.2.3@sha256:a2221d7c322073f9785e57d1e153419fe8702550fa7de92f47da7e3d85b92119
     restart: on-failure
     volumes:
       - ${APP_DATA_DIR}/data:/data
