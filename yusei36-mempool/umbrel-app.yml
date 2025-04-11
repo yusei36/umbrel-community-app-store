@@ -2,22 +2,35 @@ manifestVersion: 1
 id: yusei36-mempool
 category: bitcoin
 name: μ-mempool
-version: "3.0.1-hotfix"
+version: "3.2.0"
 icon: https://getumbrel.github.io/umbrel-apps-gallery/mempool/icon.svg
-tagline: Explore the full Bitcoin ecosystem
+tagline: Be your own explorer
 description: >-
-  Be your own explorer.
+  Run your own instance of The Mempool Open Source Project and trust no one.
+
   
-  
-  Run your own instance of The Mempool Open Source Project and trust no one—use your own node to beautifully visualize data about the Bitcoin network, transactions, blockchain, mempool, and more.
+  Use your own node to beautifully visualize data about the Bitcoin network, transactions, blockchain, mempool, and more.
 
 
   This product includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com
 releaseNotes: >-
-  This update fixes an issue where users on umbrelOS 1.3 were unable to use optional LND functionality in the mempool app.
+  This update brings the mempool app to version 3.2.0, which includes a number of new features and bug fixes.
 
 
-  Full release notes for the previous major update to version 3.0.0 are found at https://github.com/mempool/mempool/releases
+  Highlights:
+    - Support for v3 transactions
+    - Support for anchor outputs
+    - New UTXO bubble chart on the address page
+    - DATUM miner tags
+    - Tags to identify runestone messages and inscriptions
+    - Package broadcast
+    - Stratum job data visualizations
+    - Taproot multisig labels
+    - Transaction & PSBT preview feature
+    - Address poisoning detection
+
+
+  Full release notes are found at https://github.com/mempool/mempool/releases
 developer: Mempool Space K.K.
 website: https://mempool.space/about
 dependencies:
