@@ -2,7 +2,7 @@ manifestVersion: 1.1
 id: yusei36-tasmoadmin
 category: automation
 name: TasmoAdmin
-version: "4.2.3"
+version: "4.3.0"
 icon: https://raw.githubusercontent.com/TasmoAdmin/TasmoAdmin/refs/heads/master/assets/logo.svg
 tagline: Admin UI for Tasmota
 description: >-
